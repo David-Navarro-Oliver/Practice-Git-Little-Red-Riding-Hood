@@ -1,0 +1,39 @@
+/* Fondo general y tipografía */
+body {
+  margin: 0;
+  background: #f6f6f6;               /* gris suave de fondo */
+  font: 16px/1.7 Arial, sans-serif;  /* tamaño y espaciado del texto */
+  color: #222;
+}
+
+/* “Hoja” centrada con ancho limitado */
+.page {
+  max-width: 760px;                  /* ancho de lectura cómodo */
+  margin: 40px auto;                 /* centra el bloque en la pantalla */
+  padding: 40px 60px;                /* aire interno */
+  background: #fff;                  /* fondo blanco */
+  border-radius: 8px;                /* esquinas redondeadas */
+  box-shadow: 0 6px 20px rgba(0,0,0,.08); /* sombra suave */
+}
+
+/* Título centrado */
+h1 {
+  text-align: center;
+  margin: 20px 0 40px;               /* espacio arriba y abajo */
+}
+
+/* Texto de narración */
+.story p {
+  text-align: left;                  /* texto alineado a la izquierda */
+  text-indent: 1em;                  /* sangría inicial */
+  margin: 0 0 1em;                   /* espacio entre párrafos */
+}
+
+/* Diálogos (sangrados e inclinados) */
+.dialogue p {
+  text-align: left;
+  margin-left: 2em;                  /* sangrado lateral para diálogo */
+  font-style: italic;                /* cursiva */
+  color: #444;
+  margin-bottom: 1em;
+}
