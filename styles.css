@@ -1,10 +1,11 @@
 /* Fondo general y texto base */
 body {
   margin: 0;
-  background: #f6f7f8;
+  background: #f2eee3; /* fondo beige cálido */
   font: 16px/1.7 Arial, sans-serif;
   color: #222;
 }
+
 
 /* Contenedor */
 .page {
