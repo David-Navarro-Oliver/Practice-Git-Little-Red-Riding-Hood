@@ -31,3 +31,14 @@ h1 {
   color: #1f3d7a;
   font-style: italic;
 }
+.image-container {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.image-container img {
+  width: 60%;       
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
